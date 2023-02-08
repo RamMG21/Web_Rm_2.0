@@ -4,9 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web RM</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <a href="#" class="logo">Logo</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+        </ul>
+    </header>
+    <section>
+        <img src="img/Cielo 3.jpg" id="sky">
+        <img src="img/Sol.png" id="sol">
+        <img src="img/Cerro.png" id="cerro">
+        <img src="img/Primer Plano.png" id="estepa">
+        <h2 id="text">Software Developer</h2>
+        <a href="#sec" id="btn">Explore</a>
+    </section>
+    <div class="sec" id="sec">
+        <h2>Parallax Scroling Ef</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Fuga eum odio eos voluptate beatae nostrum officiis, ex vel. 
+            Amet, nisi soluta laudantium explicabo placeat sequi magnam 
+            quisquam voluptate similique nobis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Amet, quo sapiente voluptate qui necessitatibus illum tempore ea expedita rem porro, autem provident. 
+            Facilis inventore commodi dolorum laborum reprehenderit nostrum libero. 
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             A maiores distinctio, quia obcaecati saepe, magni explicabo ut eum esse laudantium voluptas, 
+             aliquam velit facilis quidem.
+             Et fuga laboriosam repudiandae repellat?<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum laboriosam doloremque vitae nam odio omnis repellat consectetur ducimus? Omnis, tempora? 
+             Exercitationem optio repellendus provident nisi saepe voluptatum reprehenderit repellat eius? 
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla fugiat eos veritatis nihil nesciunt repellat molestias,
+              laudantium sapiente, hic alias obcaecati harum voluptatum quae rem labore, 
+             illo voluptas recusandae. Temporibus? <br><br></p>
+    </div>
+
+
+
+
+    <script>
+        let sky = document.getElementById('sky');
+        let cerro = document.getElementById('cerro');
+        let estepa = document.getElementById('estepa');
+        let text = document.getElementById('text');
+        let moon = document.getElementById('moon');
+        let btn = document.getElementById('btn');
+        let sol = document.getElementById('sol');
+        let header = document.querySelector('header');
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            sol.style.left = value * 0.5 + 'px';
+           //sky.style.top = value * 0.5 + 'px'; 
+            cerro.style.top = value * 0.5 + 'px';
+            estepa.style.top = value * 0 + 'px';
+            text.style.marginRight = value * 0.5 + 'px';
+            btn.style.marginTop = value * 1 + 'px';
+            header.style.top = value * 0.5 + 'px';
+        })
+    </script>
 </body>
 </html>
