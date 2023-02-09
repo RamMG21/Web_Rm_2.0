@@ -5,6 +5,9 @@
     font-family: 'Courier New', Courier, monospace;
     
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     min-height: 100vh;
@@ -48,7 +51,7 @@ header ul li{
 }
 
 header ul li a{
-
+    font-size: 1.5em;
     text-decoration: none;
     padding: 6px 15px;
     color: #fff;
@@ -68,6 +71,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 section::before{
@@ -128,10 +132,12 @@ section img#cerro{
     background: #fff;
     color: #2b1055;
     font-size: 1.5em;
-    z-index: 0;
+    z-index: 100;
     transform: translateY(250px);
     
 }
+
+
 
 .sec
 {
@@ -151,4 +157,115 @@ section img#cerro{
 
     font-size: 1.3em;
     color: #fff;
+}
+
+.edu
+{
+    display: flex;
+    position: relative;
+    padding: 100px;
+    background: #17255c;
+}
+
+.edu h2{
+
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.edu p{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 150px;
+    font-size: 1.3em;
+    color: #fff;
+    
+    
+}
+
+
+.edu img#uaa{
+    float: left;
+    display: flex;
+    width: 100px;
+}
+
+.prj
+{
+    position: relative;
+    padding: 100px;
+    background: #17255c;
+}
+
+.prj h2{
+
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.prj p{
+
+    font-size: 1.3em;
+    color: #fff;
+}
+
+.mathl
+{
+    position: relative;
+    padding: 100px;
+    background: #17255c;
+}
+
+.mathl h2{
+
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.mathl p{
+
+    font-size: 1.3em;
+    color: #fff;
+}
+
+.contact
+{
+    position: relative;
+    padding: 100px;
+    background: #17255c;
+}
+
+.contact h2{
+
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.contact p{
+    margin-left: 150px;
+    font-size: 1.3em;
+    color: #fff;
+}
+
+.contact img#gd{
+    float: left;
+    display: flex;
+    width: 100px;
+}
+
+.contact  img#gh{
+    float: left;
+    display: flex;
+    width: 90px;
+    
+    
+}
+.contact img#gi{
+    float: left;
+    display: flex;
+    width: 100px;
 }

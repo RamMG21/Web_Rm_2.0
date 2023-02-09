@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web RM</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
         <a href="#" class="logo">Logo</a>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
+            <li><a href="#edu">Education</a></li>
+            <li><a href="#prj">Projects</a></li>
+            <li><a href="#mathl">Math Links</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </header>
     <section>
@@ -22,11 +23,32 @@
         <img src="img/Sol.png" id="sol">
         <img src="img/Cerro.png" id="cerro">
         <img src="img/Primer Plano.png" id="estepa">
-        <h2 id="text">Software Developer</h2>
+        <h2 id="text"><span class="typed"></span></h2>
         <a href="#sec" id="btn">Explore</a>
     </section>
     <div class="sec" id="sec">
-        <h2>Parallax Scroling Ef</h2>
+        <div data-aos="fade-up">
+        <h2>Something about me</h2>
+        <p>Always looking to learn new things about the world we
+            perceive and little-known topics. So that technology helps
+            to collect that knowledge that remains to be learned,
+            because there are many things to discover.</p>
+        </div>
+    </div>
+
+    <div class="edu" id="edu" >
+        <div data-aos="fade-up">
+        <h2>Education</h2>
+        <img src="img/Logo_de_la_Universidad_Autónoma_de_Aguascalientes.svg.png" id="uaa">
+        <p>I am an engineer graduated from the Autonomous University of Aguascalientes in Mexico, 
+            with a professional elective in Artificial Intelligence.<br><br></p>
+            
+        </div>
+    </div>
+
+    <div class="prj" id="prj">
+        <div data-aos="fade-up">
+        <h2>Projects</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Fuga eum odio eos voluptate beatae nostrum officiis, ex vel. 
             Amet, nisi soluta laudantium explicabo placeat sequi magnam 
@@ -42,6 +64,54 @@
              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla fugiat eos veritatis nihil nesciunt repellat molestias,
               laudantium sapiente, hic alias obcaecati harum voluptatum quae rem labore, 
              illo voluptas recusandae. Temporibus? <br><br></p>
+            </div>
+    </div>
+    <div class="mathl" id="mathl">
+        <div data-aos="fade-up">
+        <h2>Mathematics</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Fuga eum odio eos voluptate beatae nostrum officiis, ex vel. 
+            Amet, nisi soluta laudantium explicabo placeat sequi magnam 
+            quisquam voluptate similique nobis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Amet, quo sapiente voluptate qui necessitatibus illum tempore ea expedita rem porro, autem provident. 
+            Facilis inventore commodi dolorum laborum reprehenderit nostrum libero. 
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             A maiores distinctio, quia obcaecati saepe, magni explicabo ut eum esse laudantium voluptas, 
+             aliquam velit facilis quidem.
+             Et fuga laboriosam repudiandae repellat?<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum laboriosam doloremque vitae nam odio omnis repellat consectetur ducimus? Omnis, tempora? 
+             Exercitationem optio repellendus provident nisi saepe voluptatum reprehenderit repellat eius? 
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla fugiat eos veritatis nihil nesciunt repellat molestias,
+              laudantium sapiente, hic alias obcaecati harum voluptatum quae rem labore, 
+             illo voluptas recusandae. Temporibus? <br><br></p>
+            </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <div data-aos="fade-up">
+        <h2>Contact</h2>
+        <img src="img/logogd.png" id="gd">
+        <p>You can visit my google developer profile and see what I am learning and practicing, 
+        google will also have resources for you to learn new things that are of interest to you 
+        <br><br></p>
+
+        <img src="img/linkedin-icon-512x512-vkm0drb1.png" id="gi">
+        <p>You can visit my google developer profile and see what I am learning and practicing, 
+        google will also have resources for you to learn new things that are of interest to you,
+        You can visit my google developer profile and see what I am learning and practicing, 
+        google will also have resources for you to learn new things that are of interest to you ,
+        You can visit my google developer profile and see what I am learning and practicing, 
+        google will also have resources for you to learn new things that are of interest to you  
+        <br><br></p>
+        
+       
+        <img src="img/GitHub-logo2.png" id="gh">
+        <p>You can visit my google developer profile and see what I am learning and practicing, 
+        google will also have resources for you to learn new things that are of interest to you 
+        <br><br></p>
+        
+        
+            </div>
     </div>
 
 
@@ -63,10 +133,18 @@
            //sky.style.top = value * 0.5 + 'px'; 
             cerro.style.top = value * 0.5 + 'px';
             estepa.style.top = value * 0 + 'px';
-            text.style.marginRight = value * 0.5 + 'px';
+            //text.style.marginRight = value * 0.5 + 'px';
             btn.style.marginTop = value * 1 + 'px';
             header.style.top = value * 0.5 + 'px';
         })
     </script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+<script src="./js/main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
