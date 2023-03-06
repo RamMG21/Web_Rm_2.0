@@ -95,11 +95,14 @@ section img {
 }
 
 section img#moon{
+    width: 100%;
+    height: auto;
     mix-blend-mode: screen;
 }
 
 section img#sol{
-   
+    width: 100%;
+    height: auto;
     mix-blend-mode: screen;
     transform: translateX(-100px);
     /*transform: translateX(-1000px); Con esta liena se pociciona el sol de las 10am*/
@@ -111,7 +114,18 @@ section img#estepa{
 
 section img#cerro{
     z-index: 0;
+    
 }
+
+
+
+.sec  p{
+    text-align: right;
+    margin-top: 10px;
+    
+}
+
+ 
 
 #text{
 
@@ -132,140 +146,108 @@ section img#cerro{
     background: #fff;
     color: #2b1055;
     font-size: 1.5em;
-    z-index: 100;
+    z-index: 10;
     transform: translateY(250px);
     
 }
 
 
+/*Aqui empieza la seccion de informacion algo sobre mi */
 
-.sec
-{
-    position: relative;
+.section_1{
     padding: 100px;
     background: #17255c;
 }
 
-.sec h2{
+.section_1 h2{
 
     font-size: 3.5em;
     margin-bottom: 10px;
     color: #fff;
 }
 
-.sec p{
+.section_1 p{
 
     font-size: 1.3em;
     color: #fff;
 }
 
-.edu
-{
-    display: flex;
-    position: relative;
+/*The next lines are for de section number 2 */
+
+.section_2{
     padding: 100px;
     background: #17255c;
 }
 
-.edu h2{
+.section_2 h2{
 
     font-size: 3.5em;
     margin-bottom: 10px;
     color: #fff;
 }
 
-.edu p{
-    display: flex;
-    margin-top: 20px;
-    margin-left: 150px;
+.section_2 p{
+    justify-content: end;
     font-size: 1.3em;
     color: #fff;
-    
-    
 }
 
-
-.edu img#uaa{
-    float: left;
-    display: flex;
-    width: 100px;
-}
-
-.prj
-{
-    position: relative;
+/*End of the section number 2*/
+/*The next lines are for de section number 3 */
+.section_3{
     padding: 100px;
     background: #17255c;
 }
 
-.prj h2{
+.section_3 h2{
 
     font-size: 3.5em;
     margin-bottom: 10px;
     color: #fff;
 }
 
-.prj p{
-
+.section_3 p{
+    justify-content: end;
     font-size: 1.3em;
     color: #fff;
 }
-
-.mathl
-{
-    position: relative;
+/*End of the section number 3*/
+/*The next lines are for de section number 4 */
+.section_4{
     padding: 100px;
     background: #17255c;
 }
 
-.mathl h2{
+.section_4 h2{
 
     font-size: 3.5em;
     margin-bottom: 10px;
     color: #fff;
 }
 
-.mathl p{
-
+.section_4 p{
+    justify-content: end;
     font-size: 1.3em;
     color: #fff;
 }
 
-.contact
-{
-    position: relative;
+/*End of the section number 4*/
+/*The next lines are for de section number 5 */
+
+.section_5{
     padding: 100px;
     background: #17255c;
 }
 
-.contact h2{
+.section_5 h2{
 
     font-size: 3.5em;
     margin-bottom: 10px;
     color: #fff;
 }
 
-.contact p{
-    margin-left: 150px;
+.section_5 p{
+    justify-content: end;
     font-size: 1.3em;
     color: #fff;
-}
-
-.contact img#gd{
-    float: left;
-    display: flex;
-    width: 100px;
-}
-
-.contact  img#gh{
-    float: left;
-    display: flex;
-    width: 90px;
-    
-    
-}
-.contact img#gi{
-    float: left;
-    display: flex;
-    width: 100px;
 }
