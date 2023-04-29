@@ -165,7 +165,7 @@ section img#cerro{
 
 .section_1 h2{
 
-    font-size: 3.5em;
+    font-size: 3.8em;
     margin-bottom: 10px;
     color: #fff;
 }
@@ -181,12 +181,12 @@ section img#cerro{
 .section_2{
     padding: 100px;
     background: #17255c;
-   
+    padding-bottom: 200px;  
 }
 
 .section_2 h2{
     text-align: center;
-    font-size: 3.5em;
+    font-size: 3.8em;
     margin-bottom: 40px;
     color: #fff;
 }
@@ -226,26 +226,24 @@ img#logo-gdev:hover {
 /*End of the section number 2*/
 /*The next lines are for de section number 3 */
 .section_3{
-    padding: 100px;
+    
+    padding: 150px;
     background: #17255c;
 }
 
 .section_3 h2{
-   
+   margin-top: 200px;
     text-align: center;
-    font-size: 3.5em;
+    font-size: 3.8em;
     margin-bottom: 10px;
     color: #fff;
 }
 
-.center{
+.skills{
     margin: 0 auto;
     display: flexbox;
-    justify-content: space-between;
-    background: #17255c;
-    margin-left: 430px;
-    width: 900px;
-    height: 130px;
+    width: 100%;
+    align-items: center;
     box-shadow: 0 0 40px #17255c;
     border-radius: 5px;
 }
@@ -349,9 +347,10 @@ img#logo-kotlin:hover {
 
 .section_4 h2{
     text-align: center;
-    font-size: 3.5em;
+    font-size: 3.8em;
     margin-bottom: 10px;
     color: #fff;
+    
 }
 
 .section_4 p{
@@ -360,12 +359,13 @@ img#logo-kotlin:hover {
     color: #fff;
 }
 
-.center2{
+.center4{
    margin: 0 auto;
+   justify-content: center;
     display: flexbox;
     width: 100%;
     align-items: center;
-    box-shadow: 0 0 40px #000000;
+    box-shadow: 0 0 40px #17255c;
     border-radius: 5px;
 }
 
