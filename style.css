@@ -255,6 +255,7 @@ img#logo-gdev:hover {
 }
 
 .section_3 img#logo-html{
+    margin-left: 250px;
     width: 120px;
     transition: 300ms;
     margin-right: 20px;
@@ -336,6 +337,43 @@ img#logo-kotlin:hover {
     transform: scale(2.15);
 
 }
+
+.section_3 img#php{
+    width: 125px;
+    margin-top: 15px;
+    transition: 300ms;
+    margin-right: 20px;
+}
+
+img#php:hover {
+    transform: scale(2.15);
+
+}
+
+.section_3 img#csharp{
+    width: 225px;
+    margin-top: 15px;
+    transition: 300ms;
+    margin-right: 20px;
+}
+
+img#csharp:hover {
+    transform: scale(2.15);
+
+}
+
+.section_3 img#cplusplus{
+    width: 95px;
+    margin-top: 15px;
+    transition: 300ms;
+    margin-right: 20px;
+}
+
+img#cplusplus:hover {
+    transform: scale(2.15);
+
+}
+
 /*End of the section number 3*/
 /*The next lines are for de section number 4 */
 .section_4{
