@@ -254,11 +254,17 @@ img#logo-gdev:hover {
     color: #fff;
 }
 
+.skills a{
+    display: center;
+    padding: 10px;
+    
+}
+
 .section_3 img#logo-html{
-    margin-left: 250px;
+   
     width: 120px;
     transition: 300ms;
-    margin-right: 20px;
+    
     /*
     
     margin-left: 475px;
@@ -277,7 +283,7 @@ img#logo-html:hover {
 .section_3 img#logo-css{
     width: 85px;
     transition: 300ms;
-    margin-right: 20px;
+    
 }
 img#logo-css:hover {
     transform: scale(2.15);
@@ -287,7 +293,7 @@ img#logo-css:hover {
     width: 100px;
     margin-top: 15px;
     transition: 300ms;
-    margin-right: 20px;
+    
 
 }
 img#logo-python:hover {
@@ -298,7 +304,7 @@ img#logo-python:hover {
     width: 100px;
     margin-top: 15px;
     transition: 300ms;
-    margin-right: 20px;
+    
 
 }
 img#logo-js:hover {
@@ -309,7 +315,7 @@ img#logo-js:hover {
     width: 95px;
     margin-top: 10px;
     transition: 300ms;
-    margin-right: 20px;
+    
 }
 img#logo-react:hover {
     transform: scale(2.15);
@@ -320,7 +326,7 @@ img#logo-react:hover {
     width: 95px;
     margin-top: 15px;
     transition: 300ms;
-    margin-right: 20px;
+   
 }
 img#logo-cplusplus:hover {
     transform: scale(2.15);
@@ -331,7 +337,7 @@ img#logo-cplusplus:hover {
     width: 95px;
     margin-top: 15px;
     transition: 300ms;
-    margin-right: 20px;
+  
 }
 img#logo-kotlin:hover {
     transform: scale(2.15);
@@ -342,7 +348,7 @@ img#logo-kotlin:hover {
     width: 125px;
     margin-top: 15px;
     transition: 300ms;
-    margin-right: 20px;
+    
 }
 
 img#php:hover {
@@ -354,7 +360,7 @@ img#php:hover {
     width: 225px;
     margin-top: 15px;
     transition: 300ms;
-    margin-right: 20px;
+    
 }
 
 img#csharp:hover {
@@ -366,7 +372,7 @@ img#csharp:hover {
     width: 95px;
     margin-top: 15px;
     transition: 300ms;
-    margin-right: 20px;
+    
 }
 
 img#cplusplus:hover {
@@ -407,13 +413,20 @@ img#cplusplus:hover {
     border-radius: 5px;
 }
 
+.center4 a{
+    display: center;
+    padding: 50px;
+    
+}
+
+
 .section_4 img#logo-p1{
     
     width: 300px;
     margin-top: 15px;
     transition: 300ms;
-    margin-right: 20px;
-}
+    /*margin-right: 20px;*/
+} 
 img#logo-p1:hover {
     transform: scale(1.15);
 
