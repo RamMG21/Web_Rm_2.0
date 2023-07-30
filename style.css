@@ -179,9 +179,10 @@ section img#cerro{
 /*The next lines are for de section number 2 */
 
 .section_2{
-    padding: 100px;
+    padding: 20px;
     background: #17255c;
-    padding-bottom: 200px;  
+    padding-bottom: 20px; 
+    overflow: hidden; 
 }
 
 .section_2 h2{
@@ -224,29 +225,66 @@ img#logo-gdev:hover {
 }
 
 /*End of the section number 2*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*The next lines are for de section number 3 */
 .section_3{
-    
-    padding: 150px;
+    padding: 20px;
     background: #17255c;
 }
 
+
 .section_3 h2{
-   margin-top: 200px;
+   margin-top: 20px;
     text-align: center;
     font-size: 3.8em;
     margin-bottom: 10px;
     color: #fff;
 }
 
+
 .skills{
-    margin: 0 auto;
-    display: flexbox;
-    width: 100%;
-    align-items: center;
-    box-shadow: 0 0 40px #17255c;
-    border-radius: 5px;
+display: flex;
+  flex-direction: row; /* Cambia la dirección de izquierda a derecha */
+  justify-content: center;
 }
+
+.elemento1 {
+    margin: 5px; /* Agrega un margen de 5px alrededor de cada elemento */
+    padding: 5px; /* Opcional: agrega un espacio interno para que los elementos tengan un espacio interno */
+    /* Otras propiedades de estilo que desees aplicar a los elementos */
+  }
+
+  .elemento2 {
+    margin: 5px; /* Agrega un margen de 5px alrededor de cada elemento */
+    padding: 5px; /* Opcional: agrega un espacio interno para que los elementos tengan un espacio interno */
+    /* Otras propiedades de estilo que desees aplicar a los elementos */
+  }
+
+  .elemento3 {
+    margin: 5px; /* Agrega un margen de 5px alrededor de cada elemento */
+    padding: 5px; /* Opcional: agrega un espacio interno para que los elementos tengan un espacio interno */
+    /* Otras propiedades de estilo que desees aplicar a los elementos */
+  }
+
+  .elemento4 {
+    margin: 5px; /* Agrega un margen de 5px alrededor de cada elemento */
+    padding: 5px; /* Opcional: agrega un espacio interno para que los elementos tengan un espacio interno */
+    /* Otras propiedades de estilo que desees aplicar a los elementos */
+  }
+
+  .elemento5 {
+    margin: 5px; /* Agrega un margen de 5px alrededor de cada elemento */
+    padding: 5px; /* Opcional: agrega un espacio interno para que los elementos tengan un espacio interno */
+    /* Otras propiedades de estilo que desees aplicar a los elementos */
+  }
+
+  .elemento6 {
+    margin: 5px; /* Agrega un margen de 5px alrededor de cada elemento */
+    padding: 5px; /* Opcional: agrega un espacio interno para que los elementos tengan un espacio interno */
+    /* Otras propiedades de estilo que desees aplicar a los elementos */
+  }
+
+  
 
 .section_3 p{
     justify-content: end;
@@ -254,11 +292,15 @@ img#logo-gdev:hover {
     color: #fff;
 }
 
+
+
+  /*
 .skills a{
     display: center;
     padding: 10px;
     
 }
+*/
 
 .section_3 img#logo-html{
    
@@ -381,6 +423,7 @@ img#cplusplus:hover {
 }
 
 /*End of the section number 3*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*The next lines are for de section number 4 */
 .section_4{
     padding: 100px;
@@ -403,22 +446,30 @@ img#cplusplus:hover {
     color: #fff;
 }
 
-.center4{
-   margin: 0 auto;
-   justify-content: center;
-    display: flexbox;
-    width: 100%;
-    align-items: center;
-    box-shadow: 0 0 40px #17255c;
-    border-radius: 5px;
-}
-
 .center4 a{
     display: center;
     padding: 50px;
     
 }
 
+.projects{
+    display: flex;
+  flex-direction: row; /* Cambia la dirección de izquierda a derecha */
+  justify-content: center;
+
+}
+
+.project1 {
+    margin: 5px; /* Agrega un margen de 5px alrededor de cada elemento */
+    padding: 5px; /* Opcional: agrega un espacio interno para que los elementos tengan un espacio interno */
+    /* Otras propiedades de estilo que desees aplicar a los elementos */
+  }
+
+  .project2 {
+    margin: 5px; /* Agrega un margen de 5px alrededor de cada elemento */
+    padding: 5px; /* Opcional: agrega un espacio interno para que los elementos tengan un espacio interno */
+    /* Otras propiedades de estilo que desees aplicar a los elementos */
+  }
 
 .section_4 img#logo-p1{
     
