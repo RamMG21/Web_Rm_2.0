@@ -209,11 +209,26 @@ section img#sky{
 
 }
 
+
 .card_1{
     z-index: 10;
    background-image: linear-gradient(to bottom, #21346d00 15% , #7480c3 75% , #21346d);
     width: 250px;
     height: 280px;
+    padding: 2px;
+    position: relative;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.card_uaa{
+    z-index: 10;
+   background-image: linear-gradient(to bottom, #21346d00 15% , #7480c3 75% , #21346d);
+    width: 250px;
+    height: 350px;
     padding: 2px;
     position: relative;
     border-radius: 5px;
@@ -256,7 +271,7 @@ section img#sky{
 }
 
 #logo-gdev{
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     
 }
@@ -269,6 +284,10 @@ section img#sky{
 
 
 .card_1:hover{  
+    /* Animación */
+    animation: rotacion 1s; /* Duración, tipo de animación y repetición */
+}
+.card_uaa:hover{  
     /* Animación */
     animation: rotacion 1s; /* Duración, tipo de animación y repetición */
 }
