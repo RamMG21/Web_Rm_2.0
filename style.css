@@ -2,10 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
-   
-   
-    
+    font-family: lato;
 }
 html{
     scroll-behavior: smooth;
@@ -78,7 +75,6 @@ section {
 }
 
 section::before{
-
     content: '';
     position: absolute;
     bottom: 0;
@@ -128,24 +124,20 @@ section img#sky{
 }
 
 
-
 .sec  p{
     text-align: right;
     margin-top: 10px;
-    
 }
 
  
 
 #text{
-
     position: absolute;
     z-index: 9;
     color: #fff;
     white-space: nowrap;
     font-size: 5.5vw;
     transform: translateY(100px);
-    
 }
 
 #btn{
@@ -167,15 +159,46 @@ section img#sky{
 .section_1{
     padding: 100px;
     background: #17255c;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  
     
+}
+.container{
+    display: flex;
 }
 
 .section_1 h2{
-
+    text-align: left;
     font-size: 3.8em;
     margin-bottom: 10px;
     color: #fff;
 }
+.section_1 .about{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    margin-top: 50px;
+    padding: 25px;
+    background: linear-gradient(135deg, rgba(255,255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    
+}
+.section_1 .about-LOGO{
+    width: 30%;
+    display: flex;  
+}
+
+.section_1 img{
+    display: inline-block;
+}
+
 
 .section_1 p{
     text-align: justify;
@@ -183,180 +206,133 @@ section img#sky{
     color: #fff;
 }
 
-/*The next lines are for de section number 2 */
-
-.section_2{
-    padding-top: 40px;
-    background: #17255c;
-    text-align: center;
-}
-.section_2 h1{
-    
+.my-name h1{
     color: #fff;
-    font-family: 'Courier New';
     font-weight: bold;
 }
-.cards_edu{
-    padding-top: 20px;
-    width: 100%;
-    height: 100%px;
-    background: #17255c;
-    z-index: 100;
-    display: flex;
+
+.my-name img{
+    width: 20%;
+    margin-right: 10px;
+}
+
+
+
+/*The next lines are for de section number 2 */
+.section-2-color{
+    max-width: 100%;
+    background-color: #17255c;
+}
+.section-2{
+    display: grid;
+    gap: 30px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    justify-content: center;
-    text-align: center;
-
+    background-color: #17255c;
+    
 }
 
-
-.card_1{
-    z-index: 10;
-   background-image: linear-gradient(to bottom, #21346d00 15% , #7480c3 75% , #21346d);
-    width: 250px;
-    height: 280px;
-    padding: 2px;
-    position: relative;
-    border-radius: 5px;
-    justify-content: center;
+.section-2-color h1{
+    
     display: flex;
-    cursor: pointer;
-    margin: 20px;
-}
-
-.card_uaa{
-    z-index: 10;
-   background-image: linear-gradient(to bottom, #21346d00 15% , #7480c3 75% , #21346d);
-    width: 250px;
-    height: 350px;
-    padding: 2px;
-    position: relative;
-    border-radius: 5px;
     justify-content: center;
-    display: flex;
-    cursor: pointer;
-    margin: 20px;
-}
-
-.uaa{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-   
-}
-
-
-
-.uaa p{
-    padding-top: 22px;
-    font-size: 1.3rem;
-    font-family: 'Gilroy';
-}
-/*
-.card_1 .uaa img#logo-uaa{
-    float: left;
-   padding: 10px 10px 20px 20px;
-    width: 150px;
-    margin-right: 20px;
-    transition: 300ms;
-    overflow: hidden;
-} */
-
-#logo-uaa{
-    max-width: 60%;
-    height: auto;
-    
-}
-
-#logo-gdev{
-    max-width: 80%;
-    height: auto;
-    
-}
-#logo-azure{
-    max-width: 60%;
-    height: auto;
-    
-    
-}
-
-
-.card_1:hover{  
-    /* Animación */
-    animation: rotacion 1s; /* Duración, tipo de animación y repetición */
-}
-.card_uaa:hover{  
-    /* Animación */
-    animation: rotacion 1s; /* Duración, tipo de animación y repetición */
-}
-@keyframes rotacion {
-    from {
-      transform: scale(1);
-    }
-    to {
-      transform: scale(1.2);
-    }
-  }
-  
-
-
-
-/*
-
-.section_2{
-    padding: 20px;
-    background: #17255c;
-    padding-bottom: 20px; 
-    overflow: hidden; 
-}
-
-.section_2 h2{
-    text-align: center;
     font-size: 3.8em;
-    margin-bottom: 40px;
-    color: #fff;
-}
-
-.section_2 p{
-    float: left;
-    justify-content: end;
-    font-size: 1.3em;
-    color: #fff;
     margin-bottom: 10px;
-}
-
-.section_2 .uaa img#logo-uaa{
-    float: left;
-    padding: 10px 10px 20px 20px;
-    width: 150px;
-    margin-right: 20px;
-    transition: 300ms;
-}
-
-.section_2 .uaa #text{
-    flex-direction:column;
-}
-
-img#logo-uaa:hover {
-    transform: scale(1.5);
-
-}
-.section_2 img#logo-gdev{
+    color: #fff;
     
-    width: 160px;
-    float: left;
+}
+
+
+.card-edu{
+    background: linear-gradient(135deg, rgba(255,255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 30px;
+    border-radius: 16px;
+    transition: height 0,3s  ease-in-out;
+    margin-top: 100px;
+}
+
+.card-edu .img-holder{
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+.section-2 img#logos-edu{
+    width: 120px;
     margin-top: 15px;
     transition: 300ms;
-    margin-right: 20px;
-}
-img#logo-gdev:hover {
-    transform: scale(1.15);
-
 }
 
-*/
+.card-edu:hover .img-holder{
+    transform: scale(0.9);
+    margin-top: -120px;
+}
+
+.card-edu p{
+    opacity: 0;
+    color: #fff;
+    transition: opacity 0.3s ease-in-out;
+    transition-delay: 0.1s;
+    text-align: left;
+    
+}
+
+.card-edu h2{
+    color: #fff;
+    text-align: center;
+    transition: opacity 0.3s ease-in-out;
+    transition-delay: 0.1s;
+    
+}
+
+
+.card-edu a{
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    transition-delay: 0.1s;
+    display: inline-block;
+    color: #2b1055;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+
+/* Star over animation*/
+.card-content{
+    height: 35px;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+}
+
+.card-edu:hover .img-holder{
+    transform: scale(0.9);
+    margin-top: -120px;
+    transform: scale(1.5);
+    
+}
+.card-edu:hover .card-content{
+    height: 230px;
+    overflow: visible;
+    
+}
+
+.card-edu:hover p, .card-edu:hover a{
+    opacity: 1;
+    
+}
+
+
 
 /*End of the section number 2*/
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -429,26 +405,11 @@ display: flex;
 
 
 
-  /*
-.skills a{
-    display: center;
-    padding: 10px;
-    
-}
-*/
-
 .section_3 img#logo-html{
    
     width: 120px;
     transition: 300ms;
-    
-    /*
-    
-    margin-left: 475px;
-    
-    margin-top: 100px;
-   
-    */
+ 
 }
 
 img#logo-html:hover {
@@ -496,66 +457,34 @@ img#logo-js:hover {
 }
 img#logo-react:hover {
     transform: scale(2.15);
-
 }
 
 .section_3 img#logo-cplusplus{
     width: 95px;
     margin-top: 15px;
-    transition: 300ms;
-   
+    transition: 300ms;  
 }
+
 img#logo-cplusplus:hover {
     transform: scale(2.15);
-
 }
 
 .section_3 img#logo-kotlin{
     width: 95px;
     margin-top: 15px;
     transition: 300ms;
-  
 }
+
 img#logo-kotlin:hover {
     transform: scale(2.15);
-
-}
-
-.section_3 img#php{
-    width: 125px;
-    margin-top: 15px;
-    transition: 300ms;
-    
 }
 
 img#php:hover {
     transform: scale(2.15);
-
 }
 
-.section_3 img#csharp{
-    width: 225px;
-    margin-top: 15px;
-    transition: 300ms;
-    
-}
 
-img#csharp:hover {
-    transform: scale(2.15);
 
-}
-
-.section_3 img#cplusplus{
-    width: 95px;
-    margin-top: 15px;
-    transition: 300ms;
-    
-}
-
-img#cplusplus:hover {
-    transform: scale(2.15);
-
-}
 
 /*End of the section number 3*/
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -707,8 +636,6 @@ img#logo-git:hover {
     font-family:'Courier New', Courier, monospace;
     transition: all 300ms;
     border-radius: 20px;
-    
-    
 }
 
 .card:hover{
