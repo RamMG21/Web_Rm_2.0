@@ -251,7 +251,129 @@ section img#sky{
     font-weight: bold;
 }
 
+/*Projects Section start*/
 
+
+.section-titles{
+    display: grid;
+    max-width: 100%;
+    flex-wrap: wrap;
+    color: #fff;
+    background-color: #17255c;
+    align-items: center;
+    
+}
+
+
+
+.section-titles h1{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-family: lato;
+    font-size: 3.8em;
+    margin-bottom: 50px;
+    
+    
+}
+.section-titles p{
+    display: grid;
+    margin: 50px;
+    font-size: 1.5em;
+    font-family: Lato; 
+}
+
+.projects-cards{
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.6;
+    justify-content: center;
+    background-color: #17255c;
+}
+
+.projects-cards img{
+    width: 15%;
+   
+}
+
+
+.card-project{
+    
+    margin: 5px 5px;
+    background-size: cover;
+    padding: 10rem 0 0;
+    max-width: 35ch;
+    border-radius: 1rem;
+    overflow: hidden;
+
+    transition: transform 500ms ease;
+}
+
+.card-project:hover{
+    transform: scale(1.05);
+}
+
+.card-content-project{
+    color: #fff;
+    --padding: 1.5em;
+    padding: var(--padding);
+    background: linear-gradient(
+        hsl(0 0% 0% /0),
+        hsl(20 0% 0% / 0.3) 20%,
+        hsl(0 0% 0% / 1)
+    );
+    transform: translateY(80%);
+    transition: transform 500ms ease;
+}
+
+.card-project:hover .card-content-project{
+    transform: translateY(0);
+}
+
+.card-title{
+    position: relative;
+    width: max-content;
+   
+}
+.card-title h2{
+    color: #fff;
+}
+
+.card-title::after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: calc(var(--padding) * -1);
+    left: 0;
+    bottom: 0;
+    width: calc(100% + var(--padding));
+    background: #0077b5;
+    transform: scaleX(0);
+
+    transform-origin: left;
+    transition: transform 500ms ease;
+}
+
+.card-project:hover .card-title::after{
+    transform: scaleX(1);
+}
+
+.button{
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color:#ffffff;
+    background-color: #ffffff51;
+    padding: 0.5em 1.25em;
+}
+
+.button:hover,
+.button:focus{
+    color: #000000;
+    background-color: #ffffff;
+}
+
+/*END*/
 
 
 
@@ -277,8 +399,10 @@ section img#sky{
     display: flex;
     justify-content: center;
     font-size: 3.8em;
+    padding-top: 80px;
     margin-bottom: 10px;
     color: #fff;
+    
     
 }
 
