@@ -359,6 +359,7 @@ section img#sky{
 }
 
 .button{
+    margin-top: 100px;
     cursor: pointer;
     display: inline-block;
     text-decoration: none;
