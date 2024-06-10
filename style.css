@@ -247,6 +247,7 @@ section img#sky{
     font-size: 1.3em;
     color: #fff;
     list-style: none;
+    font-family: Gilroy;
 }
 
 .about-me h1{
@@ -281,11 +282,14 @@ section img#sky{
     margin-top: 100px;
     font-size: 22px;
     padding: 10px 0;
+    font-family: Gilroy;
+    
 }
 
 .container-formation p{
     color: #ffffff;
     text-align: justify;
+    font-family: Gilroy;
 }
 
 .container-formation h3{
@@ -326,7 +330,7 @@ section img#sky{
     font-weight: bold;
     display: flex;
     justify-content: center;
-    font-family: lato;
+    font-family: Gilroy;
     font-size: 3.8em;
     margin-bottom: 50px;
     
@@ -336,7 +340,8 @@ section img#sky{
     display: grid;
     margin: 50px;
     font-size: 1.5em;
-    font-family: Lato; 
+    font-family: Gilroy;
+    
 }
 
 .projects-cards{
@@ -396,6 +401,7 @@ section img#sky{
 }
 .card-title h2{
     color: #fff;
+    font-weight: bold;
 }
 
 .card-title::after{
@@ -406,7 +412,7 @@ section img#sky{
     left: 0;
     bottom: 0;
     width: calc(100% + var(--padding));
-    background: #0077b5;
+    background: #17255c;
     transform: scaleX(0);
 
     transform-origin: left;
@@ -450,6 +456,7 @@ section img#sky{
     font-size: 3.5em;
     margin-bottom: 10px;
     color: #fff;
+    font-family: Gilroy;
 }
 
 .section_5 p{
