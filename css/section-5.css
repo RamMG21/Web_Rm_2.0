@@ -1,0 +1,40 @@
+.section-5{
+    padding: 100px;
+    background: linear-gradient(to bottom,  #17255c, #000000);
+}
+
+.section_5 h2{
+    text-align: center;
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: Gilroy;
+}
+
+.section_5 p{
+    justify-content: end;
+    font-size: 1.3em;
+    color: #fff;
+}
+.section_5 img#logo-link{
+    margin-left: 500px;
+    width: 200px;
+    margin-top: 15px;
+    transition: 300ms;
+    margin-right: 20px;
+}
+img#logo-link:hover {
+    transform: scale(1.15);
+
+}
+.section_5 img#logo-git{
+    
+    width: 200px;
+    margin-top: 15px;
+    transition: 300ms;
+    margin-right: 20px;
+}
+img#logo-git:hover {
+    transform: scale(1.15);
+
+}

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: lato;
+    font-family: Gilroy;
 }
 html{
     scroll-behavior: smooth;
@@ -137,6 +137,7 @@ section img#sky{
     white-space: nowrap;
     font-size: 5.5vw;
     transform: translateY(100px);
+    font-family: Gilroy;
 }
 
 #btn{
@@ -229,91 +230,20 @@ section img#sky{
     width: 58px;
 }
 
-
-.section-1 h2{
-    text-align: left;
-    font-size: 3.8em;
-    margin-bottom: 10px;
-    color: #fff;
-}
-
-.container-1-1 img{
-    max-width: 100%;
-    height: auto;
-}
-
-.section-1 p{
-    text-align: justify;
-    font-size: 1.3em;
-    color: #fff;
-    list-style: none;
-    font-family: Gilroy;
-}
-
-.about-me h1{
-    color: #fff;
-    font-weight: bold;
-}
-
-/*Formation section*/
-/*--------------------------------------------------------------------------------------------------------------- */
-/*--------------------------------------------------------------------------------------------------------------- */
-.container-formation{
-    background: linear-gradient(to bottom,  #17255c, #000000 );
-    padding: 15px 9%;
-    padding-bottom: 100px;
-}
-.container-formation .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-    gap: 15px;
-}
-.container-formation .box-container .box{
-    box-shadow: 10px 5px 10px rgba(0,0,0,.2);
-    border-radius: 1rem;
-    background: #ffffff00;
-    text-align: center;
-    padding: 30px 20px;  
-}
-
-.container-formation  h1{
-    color: #ffffff;
-    text-align: center;
-    margin-top: 100px;
-    font-size: 22px;
-    padding: 10px 0;
-    font-family: Gilroy;
-    
-}
-
-.container-formation p{
-    color: #ffffff;
-    text-align: justify;
-    font-family: Gilroy;
-}
-
-.container-formation h3{
-    color: #ffffff;
-}
-
-.container-formation .box-container .box img{
-    height: 80px;
-    margin: 40px;
-    transition: 300ms
-}
-
-.container-formation img:hover{
-    transform: scale(2.5);
-    
-}
-/*--------------------------------------------------------------------------------------------------------------- */
-/*--------------------------------------------------------------------------------------------------------------- */
-/*End of Formation section */
-
-
 /*Projects Section start*/
 /*--------------------------------------------------------------------------------------------------------------- */
 /*--------------------------------------------------------------------------------------------------------------- */
+.section-projects{
+    background: linear-gradient(to bottom,  #17255c, #000000 );
+}
+
+.section-projects h1{
+    justify-content: start;
+    font-family: Gilroy;
+    color: #ffffff;
+    font-size: 13ch;
+}
+
 .section-titles{
     display: grid;
     max-width: 100%;
@@ -349,7 +279,7 @@ section img#sky{
     flex-wrap: wrap;
     line-height: 1.6;
     justify-content: center;
-    background: linear-gradient(to bottom, #000000, #17255c );
+    
 }
 
 .projects-cards img{
@@ -366,7 +296,6 @@ section img#sky{
     max-width: 35ch;
     border-radius: 1rem;
     overflow: hidden;
-
     transition: transform 500ms ease;
 }
 
@@ -446,54 +375,13 @@ section img#sky{
 /*Contact Section Start*/
 /*--------------------------------------------------------------------------------------------------------------- */
 /*--------------------------------------------------------------------------------------------------------------- */
-.section_5{
-    padding: 100px;
-    background: linear-gradient(to bottom, #000000, #17255c);
-}
+/* 
 
-.section_5 h2{
-    text-align: center;
-    font-size: 3.5em;
-    margin-bottom: 10px;
-    color: #fff;
-    font-family: Gilroy;
-}
 
-.section_5 p{
-    justify-content: end;
-    font-size: 1.3em;
-    color: #fff;
-}
-.section_5 img#logo-link{
-    margin-left: 500px;
-    width: 200px;
-    margin-top: 15px;
-    transition: 300ms;
-    margin-right: 20px;
-}
-img#logo-link:hover {
-    transform: scale(1.15);
-
-}
-.section_5 img#logo-git{
-    
-    width: 200px;
-    margin-top: 15px;
-    transition: 300ms;
-    margin-right: 20px;
-}
-img#logo-git:hover {
-    transform: scale(1.15);
-
-}
-
+/*Star card git, linkedln & e-mail */
 .container_card{
-    max-width: 1200px;
-    padding: 20px;
-    padding-bottom: 40px;
-    margin: auto;
-    margin-top: 100px;
     display: flex;
+    max-width: 100%;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -501,27 +389,22 @@ img#logo-git:hover {
 .card1{
     width: 300px;
     position: relative;
-    margin: 20px;
     font-family:'Courier New', Courier, monospace;
     transition: all 300ms;
     border-radius: 20px;
-   
-    
 }
 
 .card2{
     width: 300px;
     position: relative;
-    margin: 20px;
     font-family:'Courier New', Courier, monospace;
     transition: all 300ms;
     border-radius: 20px;
     
 }
 .card3{
-    width: 300px;
+    width: 350px;
     position: relative;
-    margin: 20px;
     font-family:'Courier New', Courier, monospace;
     transition: all 300ms;
     border-radius: 20px;
@@ -556,8 +439,6 @@ img#logo-git:hover {
     transition: all 400ms cubic-bezier(0.5,0,0,1);
     
 }
-
-
 
 .c1:hover .icon{
     background: #171515;

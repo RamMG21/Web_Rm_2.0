@@ -1,0 +1,58 @@
+.section-1-1{
+    padding: 100px;
+    background: linear-gradient(to bottom,  #000000, #17255c);
+    display:flex;
+    justify-content: center;
+  }
+  
+.box-timeline{
+    position: relative;
+    /*box-shadow: 10px 5px 10px rgba(0,0,0,.2); */
+    padding: 10px 10px;
+    border-radius: 25px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.box-timeline::before{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 120%;
+    background:rgb(0, 0, 255);
+    left: -15px;
+    top: 10px;
+}
+
+.box-timeline::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgb(251, 251, 251);
+    left: -23px;
+    top: 10px;
+}
+
+.timeline h2{
+
+    font-family: Gilroy;
+    text-align: start;
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    
+}
+
+.timeline h3{
+
+    text-align: start;
+    font-family: Gilroy;
+    font-size: 3.0rem;
+}
+
+.timeline p{
+    text-align: justify;
+}
+  
