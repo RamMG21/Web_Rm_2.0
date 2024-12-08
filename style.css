@@ -135,7 +135,7 @@ section img#sky{
     z-index: 9;
     color: #fff;
     white-space: nowrap;
-    font-size: 5.5vw;
+    font-size: 13ch;
     transform: translateY(100px);
     font-family: Gilroy;
 }
@@ -166,6 +166,7 @@ section img#sky{
     display:flex;
     justify-content: center;
 }
+
 
 .container-1-1{
     display: flex;
