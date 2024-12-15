@@ -2,7 +2,7 @@
     background: linear-gradient(to bottom,  #000000, #17255c);
     display:flex;
     padding-left: 10%;
-    padding-top: 20%;
+    padding-top: 10%;
   }
 
 .section-1-1 img{
@@ -64,7 +64,7 @@
     position: absolute;
     width: 3px;
     height: 120%;
-    background:#61d5b8;
+    background:#1483df;
     left: -15px;
     top: 10px;
 }
