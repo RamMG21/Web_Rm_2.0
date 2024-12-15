@@ -8,6 +8,9 @@
 
     
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/social-column.css">
+    <link rel="stylesheet" href="css/section-about.css">
+    <link rel="stylesheet" href="css/section-proyects.css">
     <link rel="stylesheet" href="css/section-1.css">
     <link rel="stylesheet" href="css/timeline.css">
     <link rel="stylesheet"  href="progressBar.css" />
@@ -23,31 +26,34 @@
     
 </head>
 <body>
-    <header>
+   
+    <div class="section-about">
         <a href="#" class="logo"></a>
         <ul>
-            <li><a href="#section-1">Resume...</a></li>
-            <li><a href="#section-2">Experience</a></li>
-            <li><a href="#section-3">Projects</a></li>
-            <li><a href="#section-4">Contact</a></li>
+            <li><a href="#section-1">01. About</a></li>
+            <li><a href="#section-2">02. Experience</a></li>
+            <li><a href="#section-3">03. Projects</a></li>
+            <li><a href="#section-4">04. Contact</a></li>
         </ul>
-    </header>
+    </div>
 
 
-    <section class="image-s">
-        <img src="img/Cielo-4.png" id="sky"> 
-        <img src="img/Luna.png" id="sol">
-        <img src="img/Cerro.png" id="cerro">
-        <img src="img/fauna_blur.png" id="estepa">
-        <h2 id="text"><span class="typed"></span></h2>
-        <a href="#section-1" id="btn">Explore</a>
-    </section>
 
-<!--Star Section 1 =========================  Education and technical skills  -->
-<!--==========================================================================-->
     <div class="section-1" id="section-1">
         <h1>Jose R. Moreno</h1>
         <h2>Software Developer</h2>
+        <div class="social-column">
+            <img src="img/icons/rm_10026439.png" alt="">
+            
+            <ul>
+                <li> <a href="https://github.com/RamMG21"><img src="img/icons/github_1051377.png" alt=""></li></a>
+                <li><a href="https://www.linkedin.com/in/jr-moreno21/"><img src="img/icons/linkedin_6422202 (1).png" alt=""></li></a>
+                <li><img src="img/icons/codepen (1).png" alt=""></li>
+            </ul>
+            <div class="line"></div>
+          </div>
+
+
         <div class="cards-section-1">
                 <div class="card-education" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/fe/Logo_de_la_Universidad_Aut%C3%B3noma_de_Aguascalientes.svg');"  data-aos="fade-up" data-aos-duration="900">
                     <div class="card-content-education">
@@ -112,72 +118,7 @@
                     </div>
                 </div>
         </div>
-        
-        <!-- 
-        <div class="column">
-            
-            <h3>Software Developer - Education</h3>
-                <br>
-            <div class="section-education">
-                <div class="card-education" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/fe/Logo_de_la_Universidad_Aut%C3%B3noma_de_Aguascalientes.svg');"  data-aos="fade-up" data-aos-duration="900">
-                    <div class="card-content-education">
-                        <h2 class="card-title">UAA</h2>
-                        <p class="card-body">
-                        <p><strong>Degree: </strong>Bachelor of Science in Software Engineering</p>
-                        <p><strong>Specialization:</strong>Artificial Intelligence</p>
-                        <p><strong>Period:</strong> 2016 - 2021</p>
-                        </p>
-                        <a href="https://www.uaa.mx/portal/" class="button">University Information</a>
-                    </div>
-                </div>
-            <div class="card-education" style="background-image: url('https://cdn-icons-png.flaticon.com/512/3885/3885250.png');"  data-aos="fade-up" data-aos-duration="900">
-                    <div class="card-content-education">
-                        <h2 class="card-title">Certifications</h2>
-                        <p class="card-body">You can access my list of certifications
-                            
-                        </p>
-                        <a href="https://www.linkedin.com/in/jr-moreno21/details/certifications/" class="button">Learn More</a>
-                    </div>
-                    
-                </div>
-            </div>
-
-                  <br>
-                  
         </div>
-
-        <div class="column">
-            <h2 style="text-align: start;">Technical Skills</h2>
-
-              
-
-            <div class="tech-skills">
-                <h3>Programing Languages</h3>
-                <ul>
-                    <li><img src="img/JavaScript-logo.png"></li>
-                    <li><img src="img/Kotlin_Icon.svg.png" ></li>
-                    <li><img src="img/ISO_C++_Logo.svg.png" ></li>
-                    <li><img src="img/Python-logo-notext.svg.png"></li>
-                    <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo_C_sharp.svg/1200px-Logo_C_sharp.svg.png"></li>
-                </ul>
-                <h3>Frameworks</h2>
-                    <ul>
-                        <li><img src="https://www.svgrepo.com/show/353657/django-icon.svg" class="logo-dj"></li>
-                        <li><img src="https://static-00.iconduck.com/assets.00/node-js-icon-227x256-913nazt0.png" class="logo-njs"></li>
-                        <li><img src="img/react-hexagon.png"></li>
-                        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/1200px-Microsoft_.NET_logo.svg.png" class="logo-cs"></li>
-                    </ul>
-                <h3>Data Analysis Tools</h2>
-                    <ul>
-                        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/1200px-Matlab_Logo.png" class="logo-dj"></li>
-                        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/800px-Jupyter_logo.svg.png" class="logo-njs"></li>
-                        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/1200px-R_logo.svg.png"></li>
-                    </ul>
-            </div>
-            </div>    -->         
-        </div>
-<!--End Section 1 ===========================================================-->
-<!--==========================================================================-->
  
 
 <!--Star section Profesional Experience-->
@@ -316,98 +257,6 @@
     </div>
 </div>
 
-<div class="container-formation" id="section-3">
-    <h1 class="title-formation">Learning Badges</h1>
-    <div class="box-container">
-   
-
-    <div class="box">
-        <h3>Amazon Web Services</h3>
-        <img src="https://saviynt.com/hubfs/aws.png#keepProtoco" alt="">
-        <p>Amazon Web Services (AWS): Currently enhancing my cloud computing skills by studying AWS.
-            Focusing on key services such as EC2, S3, RDS, and Lambda to build scalable, reliable, 
-            and cost-effective cloud solutions.</p>
-    </div>
-
-    <div class="box">
-        <h3>Google Dev</h3>
-        <a href="https://g.dev/Ram-Dev-Google">
-        <img src="img/logogd.png" alt=""> </a>
-        <p>I am committed to continuous learning and professional development,
-            currently expanding my knowledge 
-            through courses on the Google Developer platform.</p>
-    </div>
-    <div class="box">
-        <h3>Microsoft Azure</h3>
-        <a href="https://learn.microsoft.com/en-us/users/me/achievements#badges-section">
-        <img src="https://swimburger.net/media/ppnn3pcl/azure.png" alt=""> </a>
-        <p>I am committed to continuous learning and professional development,
-            currently expanding my knowledge 
-            through courses on the Google Developer platform.</p>
-    </div>
-</div>
-</div>
-
-  
-
-
-    <div class="section-5" id="section-5">
-    <h2>Contact</h2>
-        <div class="body_page">
-
-            <div class="container_card">
-                <div class="card1 c1">
-                    <div class="icon">
-                        <a href="https://github.com/RamMG21"><i class="fa-brands fa-square-github" herf="https://www.linkedin.com/feed/"></i></a>
-                    </div> 
-                </div>
-
-            <div class="card2 c2">
-                <div class="icon">
-                    <a href="https://www.linkedin.com/in/jr-moreno21/"><i class="fa-brands fa-linkedin"></i></a>
-                </div>
-            </div>
-
-            <div class="card3 c3">
-                <div class="icon">
-                    <i class="fa-solid fa-envelope"></i>
-                </div> 
-            </div>
-
-          </div>
-        </div>
-    </div>
-
-  
-    <footer>
-        <div class="container_footer">
-
-        </div>
-    </footer>
-   
-
-    <script>
-        let sky = document.getElementById('sky');
-        let cerro = document.getElementById('cerro');
-        let estepa = document.getElementById('estepa');
-        let text = document.getElementById('text');
-        let moon = document.getElementById('moon');
-        let btn = document.getElementById('btn');
-        let sol = document.getElementById('sol');
-        let header = document.querySelector('header');
-
-        window.addEventListener('scroll', function(){
-            let value = window.scrollY;
-            sol.style.left = value * 0.5 + 'px';
-           //sky.style.top = value * 0.5 + 'px'; 
-            cerro.style.top = value * 0.5 + 'px';
-            estepa.style.top = value * 0 + 'px';
-            //text.style.marginRight = value * 0.5 + 'px';
-            btn.style.marginTop = value * 1 + 'px';
-            header.style.top = value * 0.5 + 'px';
-        })
-    </script>
-
 
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
@@ -422,23 +271,6 @@
     AOS.init();
   </script>
 
-<script>
-  // Progress bars
-  $(document).ready(function() {
-      $('.progress .progress-bar').css("width",
-                function() {
-                    return $(this).attr("aria-valuenow") + "%";
-                }
-        )
-    });
-                 
-</script>
 
-<script>
-    window.onscroll = function() {
-  var y = window.scrollY;
-  console.log(y);
-};
-</script>
 </body>
 </html>
